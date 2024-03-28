@@ -4,7 +4,7 @@
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/"><img src="img/logo.png" alt="Logo"
+            <a class="navbar-brand" href="/"><img src="{% static '\page_app\img\logo.png'  %}" alt="Logo"
                     class="rounded-circle" width="30"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,8 +21,8 @@
                 </ul>
                 <!-- Mover para a margem esquerda -->
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Voltar ao topo</a>
+                    <li class="nav-item voltar-topo display-none">
+                        <a class="nav-link" id="subir" href="#">Voltar ao topo</a>
                     </li>
                 </ul>
             </div>

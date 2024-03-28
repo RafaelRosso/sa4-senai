@@ -1,0 +1,4 @@
+.display-none {
+	display: none !important;
+    transition: all .5s ease;
+}
